@@ -1,0 +1,211 @@
+
+body{
+	font-family: 'Fredoka', sans-serif;
+	max-width: 1220px;
+	margin: 0 auto;
+}
+
+header{
+	background-color: #ffffff;
+	height: 3em;
+	color: #3A6D67;
+	margin-bottom: 4em;
+	margin-top: 1em;
+}
+
+header h1{
+	font-size: 2em;
+	display:inline-block;
+	vertical-align:	middle;
+}
+header h2{
+	font-size: 2em;
+	display:inline-block;
+	vertical-align:	middle;
+}
+
+header .container:before{
+	content: '';
+	display:inline-block;
+	height: 100%;
+	vertical-align:	middle;
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+section{
+	margin: 2em 0;
+	overflow: hidden;
+}
+
+section h2{
+	font-size: 2.25em;
+	color: #2E655E;
+	display: block;
+	padding-bottom: .5em;
+	margin-bottom: .5em;
+}
+
+
+table{
+	width: 100%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+	margin: 0 auto;
+
+}
+
+th{
+	padding: .7em;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 20px solid #ffffff;
+	background-color: #ffffff;
+}
+
+tr{
+	background-color: #073E3C;
+	border-radius: 50px;
+
+}
+td {
+	padding-top:2.5em;
+	padding-bottom: 2.5em;
+	margin: 0;
+	text-align: center;
+	color: white;
+	border-bottom: 20px solid #ffffff; 
+
+}
+td:last-child{
+	background-color: #9CEA3F;
+	width: 10px;
+	color: rgb(10, 10, 10);
+}
+
+label{
+	color: #555;
+	display: block;
+	margin-bottom: .2em;
+}
+
+.campo{
+	margin: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: .7em;
+	width: 100%;
+}
+
+.campo-medio{
+	display: inline-block;
+	padding-right: .5em;
+}
+
+.grupo{
+	width: 24%;
+	display: inline-block;
+	padding-bottom: 20px;
+} 
+
+button{
+	padding: 1.5em 2em;
+	border: 0;
+	font-size: 1.2em;
+	cursor: pointer;
+	margin: 0;
+	margin-top: -3px;
+	color: #fff;
+	background-color:#073E3C;
+	width: 20%;
+    display: block;
+    clear: both;
+    margin: 10px 0px;
+	border-radius: 50px;
+	font-family: 'fredoka';
+}
+
+button:hover{
+	background-color: #9CEA3F;
+	color: rgb(10, 10, 10);
+}
+
+button[disabled=disabled], button:disabled {
+    background-color: gray;
+	border-color: darkgray;
+
+}
+
+.adicionar-paciente{
+    margin-top: 50px;
+}
+
+.campo-invalido{
+	border: 1px solid red;
+}
+
+.paciente-invalido{
+    background-color: lightcoral;
+}
+
+#mensagens-erro{
+	color: red;
+}
+
+.fadeOut{
+	opacity: 0;
+	transition: 0.5s;
+}
+
+#filtrar-tabela{
+	width: 250px;
+	height: 35px;
+	margin-bottom:20px ;
+	outline: none;
+	border-color: #073E3C;
+	border-style: solid;
+	border-radius: 50px;
+	border-width: .2em;
+	padding: 10px;
+}
+#filtrar-tabela::placeholder{
+	font-family: 'fredoka';
+	font-weight: 300;
+	color: black;
+	height: 20px;
+}
+
+.invisivel{
+	display: none;
+}
+.text-input{
+	width: 240px;
+	height: 15px;
+} 
+form input{
+	outline: none;
+	padding: 20px;
+	width: 200px;
+	border: 1px solid #073E3C;
+	border-radius: 50px;
+	padding-bottom: 20px;
+	display: block;
+    margin: 0 auto;
+
+} 
+ form label{
+	font-size: 1.2em;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #073E3C;
+} 
+
+#titulo-form{
+	padding-top: 50px;
+}
